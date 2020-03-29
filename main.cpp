@@ -158,31 +158,7 @@ int main() {
   switch(onChoiced) {
     case 0: exit();
     break;
-    case 1: system("clear");
-    main();
-    break;
-    case 2: system("clear");
-    main();
-    break;
-    case 3: system("clear");
-    main();
-    break;
-    case 4: system("clear");
-    main();
-    break;
-    case 5: system("clear");
-    main();
-    break;
-    case 6: system("clear");
-    main();
-    break;
-    case 7: system("clear");
-    main();
-    break;
-    case 8: system("clear");
-    main();
-    break;
-    case 9: system("clear");
+    case 1 ... 9: system("clear");
     main();
     break;
   }
