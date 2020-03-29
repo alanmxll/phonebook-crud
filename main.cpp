@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int choice, onChoiced, wantedPosition, positionsFilled = 0;
+int choice, onChoiced, wantedPosition;
 
 struct Contact {
   char name[50];
